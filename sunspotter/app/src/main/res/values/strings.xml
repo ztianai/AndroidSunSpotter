@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sun Spotter</string>
+    <string name="sun">There will be sun!</string>
+    <string name="no_sun">There will not be sun!</string>
+</resources>

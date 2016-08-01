@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <!-- Display a weather image-->
+        <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/sunny"
+        android:id="@+id/weatherPic"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
+
+        <!-- Show whether there will be sun information -->
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWeatherHeader"
+        android:text="@string/sun"
+        android:layout_toRightOf="@id/weatherPic"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp" />
+
+        <!-- Show sunny day information-->
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWeatherDescr"
+        android:text="It will be sunny on Sunday at 3:00pm"
+        android:layout_below="@id/txtWeatherHeader"
+        android:layout_toRightOf="@id/weatherPic"
+        android:layout_marginTop="15dp"
+        android:textSize="13sp"/>
+
+</RelativeLayout>
